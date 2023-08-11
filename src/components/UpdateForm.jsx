@@ -14,11 +14,11 @@ const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate }) => {
             <button
               onClick={updateTask}
               className="btn btn-lg btn-success mr-20"
-            >Update</button>
+            >Güncelle</button>
             <button
               onClick={cancelUpdate}
               className="btn btn-lg btn-warning"
-            >Cancel</button>
+            >İptal</button>
           </div>
         </div>
         <br />  
