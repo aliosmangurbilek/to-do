@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
+
+
 function App() {
 
   // Tasks (ToDo List) State
@@ -76,7 +78,7 @@ function App() {
     <div className="container App">
 
     <br /><br />
-    <h2>To Do List App (ReactJS)</h2>
+    <h2>Yapılacaklar Listesi (ReactJS)</h2>
     <br /><br />
 
     {updateData && updateData ? (
@@ -110,3 +112,6 @@ function App() {
 }
 
 export default App;
+
+
+// https://www.youtube.com/watch?v=TmDNBEdHzVs //
