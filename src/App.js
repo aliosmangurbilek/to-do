@@ -2,6 +2,7 @@ import {useState} from 'react';
 import AddTaskForm from './components/AddTaskForm.jsx';
 import UpdateForm from './components/UpdateForm.jsx';
 import ToDo from './components/ToDo.jsx';
+import { animated } from '@react-spring/web'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -98,7 +99,7 @@ function App() {
 
     {/* Display ToDos */}
 
-    {toDo && toDo.length ? '' : 'No Tasks...'}
+    {toDo && toDo.length ? '' : 'şu anda yapılacak iş yok lütfen iş ekleyin...'}
 
     <ToDo
       toDo={toDo}
